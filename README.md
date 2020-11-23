@@ -1,1 +1,5 @@
-# Practica-Html-V.2
+Pràctica Html
+
+Entrega 2
+
+Eloi Forcada Prat
