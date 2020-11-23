@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style2.css">
+    <link rel="stylesheet" href="css/style3.css">
+</head>
+<body>
+
+    <div id="menu" class="navbar">
+        <a href="index.html" class="#menu">Gemma Marfany</a>
+        <a href="index.html">Biografia</a>
+        <a href="obra.html">Obra</a>
+        <a href="">Galeria</a>
+    </div>
+
+
+    <div class="row">
+        <div class="column">
+          <img src="img/gemma.png" alt="Snow" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="img/gemma.png" alt="Forest" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="img/gemma.png" alt="Mountains" style="width:100%">
+        </div>
+        <div class="column">
+            <img src="img/gemma.png" alt="Mountains" style="width:100%">
+          </div>
+          <div class="column">
+            <img src="img/gemma.png" alt="Mountains" style="width:100%">
+          </div>
+          <div class="column">
+            <img src="img/gemma.png" alt="Mountains" style="width:100%">
+          </div>
+      </div>
+
+      <script>
+        window.onscroll = function () { myFunction() };
+
+        var header = document.getElementById("menu");
+        var sticky = header.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset > sticky) {
+                header.classList.add("sticky");
+            } else {
+                header.classList.remove("sticky");
+            }
+        }
+    </script>
+</body>
+</html>
